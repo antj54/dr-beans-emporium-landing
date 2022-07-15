@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: trajan-pro-3, serif;
+    background-color: #800020;
+    color: #30ac2c;
+    text-shadow: 20px solid black;
+}
+
+/* header */
+
+#logo {
+    height: 100px;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid #30ac2c;
+    border-top: 1px solid #30ac2c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #800020;
+    z-index: 1;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(48,172,44,0);
+    color: #30AC2C;
+    background: #800020; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-self: center;
+    gap: 40px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #30ac2c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* mission */
+
+#our-mission {
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(./img/beans-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mission-content {
+    background-color: #800020;
+    position: relative;
+    height: 8rem;
+    width: 100%;
+    align-self: center;
+    font-size: 1rem;
+}
+
+/* products */
+
+#products {
+    margin-top: 30px;
+}
+
+
+#products-header {
+    text-align: center;
+}
+
+#products-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#products img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#team img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+/* Team */
+
+#team {
+    margin-top: 30px;
+}
+
+#team h2 {
+    text-align: center;
+}
+
+#team-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #30ac2c;
+    font-size: 1.2rem;
+    font-weight: 700cd;
+}
