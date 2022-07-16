@@ -110,6 +110,8 @@ a:hover {
 #products-header {
     text-align: center;
     text-shadow: 2px 2px black;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #products-content {
@@ -166,4 +168,89 @@ footer {
     font-size: 1.2rem;
     font-weight: 700;
     text-shadow: 2px 2px black;
+}
+
+@media only screen and (max-width: 1170px) {
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    align-items: baseline;
+}
+
+#mission-content, #products-header {
+    font-size: .9rem;
+}
+}
+
+@media only screen and (min-width: 724px) and (max-width: 786px) {
+h1 {
+    font-size: 1.4rem;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 723px) {
+h1 {
+    font-size: 1.2rem;
+}
+}
+
+@media only screen and (max-width: 620px) and (min-width:542px) {
+    h1 {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 541px) {
+h1 {
+    display: none;
+}
+
+#mission-content, #product-header {
+    font-size: .7rem;
+}
+
+p {
+    font-size: .98rem;
+}
+}
+
+@media only screen and (max-width: 484px) {
+    ul{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 446px) {
+
+#logo {
+    height: 60px;
+}
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+ul {
+    font-size: .9rem;
+    font-weight: 700;
+    
+}
+
+}
+
+@media only screen and (max-width: 387px) {
+    ul{
+        font-size: .8rem;
+    }
 }
