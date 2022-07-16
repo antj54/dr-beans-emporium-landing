@@ -21,7 +21,7 @@ img {
 
 #logo {
     height: 80px;
-    margin-left: 10px;
+    margin-left: 30px;
     align-self: center;
     box-shadow: none;
 }
@@ -54,8 +54,10 @@ ul {
     display: flex;
     align-self: center;
     gap: 40px;
-    margin-right: 20px;
+    margin-right: 30px;
     font-size: 1.2rem;
+    font-weight: 400;
+    text-shadow: 2px 2px black;
 }
 
 a {
@@ -86,6 +88,7 @@ a:hover {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
+    text-shadow: 2px 2px black;
 }
 
 #mission-content {
@@ -106,6 +109,7 @@ a:hover {
 
 #products-header {
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 
 #products-content {
@@ -117,6 +121,7 @@ a:hover {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
+    text-shadow: 2px 2px black;
 }
 
 #products img {
@@ -139,6 +144,7 @@ a:hover {
 
 #team h2 {
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 
 #team-content {
@@ -150,6 +156,7 @@ a:hover {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
+    text-shadow: 2px 2px black;
 }
 
 footer {
@@ -157,5 +164,6 @@ footer {
     margin-top: 30px;
     border-top: 1px solid #30ac2c;
     font-size: 1.2rem;
-    font-weight: 700cd;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
 }
