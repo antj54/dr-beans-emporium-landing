@@ -13,11 +13,17 @@ body {
     text-shadow: 20px solid black;
 }
 
+img {
+    box-shadow: 2px 2px black ;
+}
+
 /* header */
 
 #logo {
-    height: 100px;
+    height: 80px;
     margin-left: 10px;
+    align-self: center;
+    box-shadow: none;
 }
 
 header {
@@ -30,8 +36,8 @@ header {
     top: 0;
     width: 100%;
     height: 100px;
-    background-color: #800020;
     z-index: 1;
+    background-color: #800020;
 }
 
 h1 {
@@ -39,7 +45,8 @@ h1 {
     justify-self: center;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 2px rgba(48,172,44,0);
     color: #30AC2C;
-    background: #800020; 
+    background: #800020;
+    font-size: 2rem; 
 }
 
 ul {
@@ -63,6 +70,8 @@ a:hover {
 /* mission */
 
 #our-mission {
+    position: relative;
+    top: 15px;
     margin-top: 100px;
     text-align: center;
     background-image: url(./img/beans-hero.jpg);
@@ -74,7 +83,9 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
 }
 
 #mission-content {
